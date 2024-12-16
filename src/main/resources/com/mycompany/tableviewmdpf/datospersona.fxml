@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.tableviewmdpf.DatospersonaController">
+   <children>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="nombrepersona" editable="false" prefHeight="26.0" prefWidth="230.0">
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="40.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Apellido">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="15.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="apellidopersona" editable="false" prefHeight="26.0" prefWidth="230.0">
+               <HBox.margin>
+                  <Insets top="13.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="41.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ciudad">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="15.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="ciudadpersona" editable="false" prefHeight="26.0" prefWidth="230.0">
+               <HBox.margin>
+                  <Insets top="13.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="46.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Provincia">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="15.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="provinciapersona" editable="false" prefHeight="26.0" prefWidth="230.0">
+               <HBox.margin>
+                  <Insets top="13.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Imagen (ruta)">
+               <HBox.margin>
+                  <Insets bottom="3.0" right="10.0" top="15.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="rutaimagentextfield" editable="false" prefHeight="26.0" prefWidth="230.0">
+               <HBox.margin>
+                  <Insets top="13.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="31.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#cerraraction" text="Cerrar">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
